@@ -19,5 +19,23 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.container{
     height: 100vh;
+}
+
+.container__botao__plus{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1%;
+    text-decoration: none;
+}
+
+.container__botao__alura{
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1%;
+    text-decoration: none;
 }

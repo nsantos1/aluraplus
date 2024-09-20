@@ -23,19 +23,23 @@ body{
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao__plus{
     background-color: var(--botao-azul);
     color: var(--branco-principal);
     border-radius: 5px;
-    padding: 1%;
+    padding: 1em;
     text-decoration: none;
 }
 
 .container__botao__alura{
+    background-color: transparent;
     color: var(--branco-principal);
+    border: 2px solid var(--branco-principal);
     border-radius: 5px;
-    padding: 1%;
+    padding: 1em;
     text-decoration: none;
 }

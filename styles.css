@@ -8,11 +8,13 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --fonte-principal: 'inter'
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal), sans-serif;
 }
 
 .principal{
@@ -27,12 +29,18 @@ body{
     grid-template-columns: 50% 50%;
 }
 
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
 .container__botao{
     background-color: var(--botao-azul);
     color: var(--branco-principal);
     border-radius: 5px;
     padding: 1em;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .botao_secundario{
@@ -41,9 +49,9 @@ body{
     border: 2px solid var(--branco-principal);
     border-radius: 5px;
     padding: 1em;
-    text-decoration: none;
 }
 
 .container__aviso {
     color: var(--cinza-secundario);
+    font-size: 12px;
 }

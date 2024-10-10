@@ -17,21 +17,31 @@ body{
     font-family: var(--fonte-principal), sans-serif;
 }
 
-.principal{
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__caixa{
+    margin: 0 6em
+}
+
 .container__titulo{
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0
 }
 
 .container__botao{
@@ -41,6 +51,9 @@ body{
     padding: 1em;
     text-decoration: none;
     font-weight: 400;
+    margin: 1em;
+    display: block;
+    gap: 16px;
 }
 
 .botao_secundario{

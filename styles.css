@@ -70,7 +70,8 @@ body{
 }
 
 .secundario {
-    margin: 0 10em;
+    margin: 0 20em;
+    align-items: center;
 }
 
 .imagem__secundaria {
@@ -78,5 +79,17 @@ body{
 }
 
 .container__descricao{
-    text-align: center;
+    align-items: center;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
 }
